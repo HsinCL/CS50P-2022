@@ -1,1 +1,0 @@
-sentence = input("Input somthing: ").lower()
