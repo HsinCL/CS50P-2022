@@ -1,4 +1,4 @@
-item = input("Item: ")
+item = input("Item: ").lower()
 
 raw_fruits_poster = {
     "apple": 130,
@@ -24,4 +24,4 @@ raw_fruits_poster = {
 }
 
 if item in raw_fruits_poster:
-    print("Calories:", raw_fruits_poster['item'])
+    print("Calories:", raw_fruits_poster[item])
